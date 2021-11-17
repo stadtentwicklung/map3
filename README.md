@@ -1,7 +1,7 @@
 # :world_map: Höhenmodell & Volllaufmodell
 :white_check_mark: Höhenunterschiede eines Planungsbereiches verdeutlichen (Überhöhung) und als 3D-Szene im Web publizieren mit QGIS und Open-Source-Data.
 
-## :computer: Link [https://stadtentwicklung.github.io/map3/)
+## :computer: Link [https://stadtentwicklung.github.io/map3/]
 
 ### :camera_flash: Screenshot:
 ![Screenshot der GitHub-Pages App](https://raw.githubusercontent.com/stadtentwicklung/map3/master/img/screenshot.JPG)
