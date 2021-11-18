@@ -1,4 +1,4 @@
-# :world_map: Interaktives online Höhenmodell mit Voll
+# :world_map: Interaktives online 3D-Höhenmodell mit Volllauffunktion
 :white_check_mark: Höhenunterschiede eines Planungsbereiches verdeutlichen (Überhöhung) und als 3D-Szene im Web publizieren mit QGIS und Open-Source-Data.
 
 ## :computer: Link https://stadtentwicklung.github.io/map3/
@@ -14,7 +14,7 @@ Für ein 1km² großes Gebiet in CB wurde eine vereinfachte Geländehöhenanalys
 
 Das interaktive online Projekt 3D-Höhenmodell benötigt diese Datei jedoch nicht. Die xyz-Daten bilden jedoch das Hauptlayout, in dem ein vereinfachtes Höhestufennmodell mit QGIS dargestellt ist.
 ![Screenshot der PDF mit Höhenstufenmodell und Link zum interaktiven Höhenmodell](https://raw.githubusercontent.com/stadtentwicklung/map3/master/img/stufen.jpg)
-Das interaktive Szenario ist on top - der beistehende Link zu einem online 3D-Höhenmodell _upgraded_ das sonst so _gewöhnliche_ PDF. Es bildet ein zusätzliches Analyseerlebnis. 
+Das interaktive Szenario ist sozusagen **on top** - der beistehende Link (oben rechts im Bild) zu einem online 3D-Höhenmodell _upgraded_ das sonst so _gewöhnliche_ PDF. Es bildet ein zusätzliches Analyseerlebnis. 
 
 
 angebot Erforderlich ist eine Schummerung, bei der eine künstliche Lichtquelle auf die Geländehöhen geworfen wird, um im Ergebnis die Oberflächenform des Geländes gut zu veranschaulichen. Dann benötigt es nur noch ein Orthofoto, um die Orientierung zu vereinfachen. Die Schummerung wird als GeoTIFF vom [Geobroker der Landesvermessung](https://geobroker.geobasis-bb.de/basiskarte.php?mode=startup&aProductId=488a2b53-564f-43eb-88ec-0d87bb43ed20) bereitgestellt. Das Orthofoto wird erzeugt aus einem Orthofoto-WMS der Landesvermessung. 
