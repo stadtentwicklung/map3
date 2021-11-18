@@ -1,4 +1,4 @@
-# :world_map: Höhenmodell & Volllaufmodell
+# :world_map: Interaktives online Höhenmodell mit Voll
 :white_check_mark: Höhenunterschiede eines Planungsbereiches verdeutlichen (Überhöhung) und als 3D-Szene im Web publizieren mit QGIS und Open-Source-Data.
 
 ## :computer: Link https://stadtentwicklung.github.io/map3/
@@ -10,9 +10,14 @@
 
 ### :computer: Internet, QGIS und GitHub - mehr ist nicht nötig
 
-Für ein 1km² großes Gebiet in CB wurde eine vereinfachte Geländehöhenanalyse durchgeführt. Das Areal ist flach mit max. 5m Höhenunterschied, was eine Analyse in QGIS von Vermessungspunkten ergab. Diese xyz-Dateien lassen sich für das Bundesland Brandenburg kostenfrei herunterladen über den [Geobroker der Landesvermessung](https://geobroker.geobasis-bb.de/basiskarte.php?mode=startup&aProductId=488a2b53-564f-43eb-88ec-0d87bb43ed20) und sind im lokal üblichen Koordinatenbezugssystem EPSG:25833.  Die Höheninformationen sind ersichtlich über: Rechtsklick auf Layer Vermessungspunkte -> Eigenschaften -> Symbolisierung -> Pull-Down: Abgestuft -> Pull-Down: Spalte mit Höhenwerten wählen -> Klassifizieren anklicken (ziehmlich weit unten). Dargestellt ist jetzt eine stufenweise Differenzierung vom kleinsten zum größten Höhenwert. Die Parameter der Symbolisierung lassen sich weiter verfreinern (Farben, Farberlauf, Ausdehnung der Abstufung).
+Für ein 1km² großes Gebiet in CB wurde eine vereinfachte Geländehöhenanalyse durchgeführt. Das Areal ist flach mit max. 5m Höhenunterschied, was eine Analyse in QGIS von Vermessungspunkten ergab. Diese xyz-Dateien lassen sich für das Bundesland Brandenburg kostenfrei herunterladen über den [Geobroker der Landesvermessung](https://geobroker.geobasis-bb.de/basiskarte.php?mode=startup&aProductId=488a2b53-564f-43eb-88ec-0d87bb43ed20) im lokal üblichen Koordinatenbezugssystem EPSG:25833. Die Höheninformationen sind ersichtlich über: Rechtsklick auf Layer Vermessungspunkte -> Eigenschaften -> Symbolisierung -> Pull-Down: Abgestuft -> Pull-Down: Spalte mit Höhenwerten wählen -> Klassifizieren anklicken (ziehmlich weit unten). Dargestellt ist jetzt eine stufenweise Differenzierung vom kleinsten zum größten Höhenwert. Die Parameter der Symbolisierung lassen sich weiter verfeinern (Farben, Farberlauf, Ausdehnung der Abstufung).
 
-Das Projekt 3D-Höhenmodell benötigt diese Datei jedoch nicht. Erforderlich ist eine Schummerung, bei der eine künstliche Lichtquelle auf die Geländehöhen geworfen wird, um im Ergebnis die Oberflächenform des Geländes gut zu veranschaulichen. Dann benötigt es nur noch ein Orthofoto, um die Orientierung zu vereinfachen. Die Schummerung wird als GeoTIFF vom [Geobroker der Landesvermessung](https://geobroker.geobasis-bb.de/basiskarte.php?mode=startup&aProductId=488a2b53-564f-43eb-88ec-0d87bb43ed20) bereitgestellt. Das Orthofoto wird erzeugt aus einem Orthofoto-WMS der Landesvermessung. 
+Das interaktive online Projekt 3D-Höhenmodell benötigt diese Datei jedoch nicht. Die xyz-Daten bilden jedoch das Hauptlayout, in dem ein vereinfachtes Höhestufennmodell mit QGIS dargestellt ist.
+![Screenshot der PDF mit Höhenstufenmodell und Link zum interaktiven Höhenmodell](https://raw.githubusercontent.com/stadtentwicklung/map3/master/img/stufen.jpg)
+Das interaktive Szenario ist on top - der beistehende Link zu einem online 3D-Höhenmodell _upgraded_ das sonst so _gewöhnliche_ PDF. Es bildet ein zusätzliches Analyseerlebnis. 
+
+
+angebot Erforderlich ist eine Schummerung, bei der eine künstliche Lichtquelle auf die Geländehöhen geworfen wird, um im Ergebnis die Oberflächenform des Geländes gut zu veranschaulichen. Dann benötigt es nur noch ein Orthofoto, um die Orientierung zu vereinfachen. Die Schummerung wird als GeoTIFF vom [Geobroker der Landesvermessung](https://geobroker.geobasis-bb.de/basiskarte.php?mode=startup&aProductId=488a2b53-564f-43eb-88ec-0d87bb43ed20) bereitgestellt. Das Orthofoto wird erzeugt aus einem Orthofoto-WMS der Landesvermessung. 
 
 ...
 
