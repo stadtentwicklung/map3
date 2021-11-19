@@ -23,4 +23,7 @@ Im Menü _Web_ ist es dann aufrufbar. Bei _Scene Settings_ ist standardmäßig e
 
 Ein übersichtliches und weiterführendes Tutorial bietet https://qgis2threejs.readthedocs.io/en/docs/Tutorial.html. Über GitHub [GitHub-Pages](https://pages.github.com/) lässt sich dein Projekt online und kostenfrei abrufen: https://stadtentwicklung.github.io/map3/.
 
+Nachtrag: Die Browser-3D-Szene für GitHub, im obigen Bild rechts via Screenshot in das PDF eingefügt, ist eine eigene Applikation. QGIS bietet die Funktion _Neue 3D-Kartenansicht_, mit der zusätzlich zu einer 2D-Normalansicht auch eine 3D-Spezialansicht dem Layout in QGIS hinzugefügt werden kann. Siehe Bild hier oben rechts:
+![Screenshot mit 3D-Karte im QGIS-Layout](https://raw.githubusercontent.com/stadtentwicklung/map3/master/img/color.JPG)
+
 ### :coffee::coffee::coffee: by [Stefan](https://github.com/stefanstoehr)
